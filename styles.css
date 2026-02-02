@@ -193,7 +193,6 @@ h1 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Grid Layout */
 .main-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -201,7 +200,6 @@ h1 {
     margin-bottom: 3rem;
 }
 
-/* Cards */
 .card {
     background: var(--grey-bg);
     border-radius: 16px;
@@ -229,14 +227,12 @@ h1 {
     font-size: 1.25rem;
 }
 
-/* About Section */
 .about-text {
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 1rem;
 }
 
-/* Experience Section */
 .experience-item {
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
@@ -274,7 +270,6 @@ h1 {
     font-size: 0.95rem;
 }
 
-/* Tech Stack */
 .tech-section {
     margin-bottom: 1.5rem;
 }
@@ -316,7 +311,6 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Hobbies Section */
 .hobby-item {
     margin-bottom: 1.5rem;
 }
@@ -338,7 +332,6 @@ h1 {
     font-size: 0.95rem;
 }
 
-/* Projects Section */
 .projects-header {
     display: flex;
     justify-content: space-between;
@@ -383,7 +376,6 @@ h1 {
     line-height: 1.6;
 }
 
-/* Certifications Section */
 .certification-item {
     margin-bottom: 1.25rem;
     padding-bottom: 1.25rem;
@@ -408,7 +400,6 @@ h1 {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 968px) {
     .main-grid {
         grid-template-columns: 1fr;
@@ -451,7 +442,6 @@ h1 {
     }
 }
 
-/* Animations */
 @keyframes fadeInUp {
     from {
         opacity: 0;
