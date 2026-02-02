@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFC Portfolio - Dan Francis S. Capitan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Minimalist Grey Theme Overrides */
+        :root {
+            --grey-icon: #7f8c8d;
+            --light-grey: #f4f4f4;
+        }
+        .card-icon, .minimal-icon { 
+            color: var(--grey-icon) !important; 
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        .tech-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .tech-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.95rem;
+            color: #444;
+        }
+        .routine-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-photo">
+                    <img src="image/dan.jpg" alt="Dan Francis S. Capitan">
+                </div>
+                <div class="header-info">
+                    <div class="header-top">
+                        <div>
+                            <h1>Dan Francis S. Capitan <span class="pronouns">He/Him</span></h1>
+                            <p class="title">Aspiring Software Developer</p>
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot minimal-icon"></i>
+                                <span>Digos City, Philippines</span>
+                            </div>
+                        </div>
+                        <div class="university-badge">
+                            <div class="university-logo"><img src="image/universitylogo.png" alt="UM Logo"></div>
+                            <span class="university-name">University of Mindanao</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:d.capitan@umindanao.edu.ph" class="social-link" target="_blank">
+                            <i class="fa-solid fa-envelope minimal-icon"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://github.com/ESHEESH" target="_blank" class="social-link">
+                            <i class="fa-brands fa-github minimal-icon"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.facebook.com/dan.francis.3950" target="_blank" class="social-link">
+                            <i class="fa-brands fa-facebook minimal-icon"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/xiao_dfc/" target="_blank" class="social-link">
+                            <i class="fa-brands fa-instagram minimal-icon"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-grid">
+            <div>
+                <div class="card">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-circle-user minimal-icon"></i>
+                        About Me
+                    </h2>
+                    <p class="about-text">
+                        Hello! I am a second-year <strong>Computer Science student</strong> at the University of Mindanao. I live in Digos City and I am passionate about technology and innovation.
+                    </p>
+                    <p class="about-text">
+                        My vision is to bridge the gap between complex problems and elegant software solutions while exploring the world.
+                    </p>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-code minimal-icon"></i>
+                        Projects & Experience
+                    </h2>
+                    <div class="project-item">
+                        <h3 class="project-name">Internet Shop Cafe Management System</h3>
+                        <p class="project-description">Comprehensive management system for internet cafes with user session tracking, billing, and resource management capabilities.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-name">CJC E-Payment System</h3>
+                        <p class="project-description">Digital payment solution for educational institutions, streamlining fee collection and financial transactions.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-name">Online Mobile Payment for Schools</h3>
+                        <p class="project-description">Mobile-first payment platform enabling students and parents to handle school fees and transactions seamlessly.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-name">AI Automation Solutions</h3>
+                        <p class="project-description">Intelligent automation systems designed to streamline workflows and enhance productivity across various domains.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-layer-group minimal-icon"></i>
+                        Hobbies
+                    </h2>
+                    <div class="hobby-item">
+                        <h3 class="hobby-title">Digital & Logic</h3>
+                        <p class="hobby-text">Immersive gaming, software architecture, and creative video editing.</p>
+                    </div>
+                    <div class="hobby-item">
+                        <h3 class="hobby-title">Active Lifestyle</h3>
+                        <p class="hobby-text">Biking through Digos City, mountain hiking, and competitive Badminton.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-layer-group minimal-icon"></i>
+                        Tech Stack
+                    </h2>
+                    
+                    <div class="tech-section">
+                        <h3 class="section-label">Frontend</h3>
+                        <div class="tech-grid">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">Kotlin</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-section">
+                        <h3 class="section-label">Backend</h3>
+                        <div class="tech-grid">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">PHP</span>
+                            <span class="tech-badge">Qt</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">Node.js</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-section">
+                        <h3 class="section-label">Developer Tools</h3>
+                        <div class="tech-grid">
+                            <span class="tech-badge">Android Studio</span>
+                            <span class="tech-badge">Arduino</span>
+                            <span class="tech-badge">Git</span>
+                            <span class="tech-badge">GitHub</span>
+                            <span class="tech-badge">VsCode</span>
+                            <span class="tech-badge">Figma</span>
+                            <span class="tech-badge">Discord</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-clock minimal-icon"></i>
+                        Daily Routine
+                    </h2>
+                    <div class="hobby-text">
+                        <div class="routine-item"><i class="fa-solid fa-sun minimal-icon"></i> Morning prep and planning</div>
+                        <div class="routine-item"><i class="fa-solid fa-book-open minimal-icon"></i> Academic sessions and tasks</div>
+                        <div class="routine-item"><i class="fa-solid fa-terminal minimal-icon"></i> Deep work & coding practice</div>
+                        <div class="routine-item"><i class="fa-solid fa-dumbbell minimal-icon"></i> Fitness and recreation</div>
+                        <div class="routine-item"><i class="fa-solid fa-bed minimal-icon"></i> Rest and reflection</div>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-mountain-sun minimal-icon"></i>
+                        Life Goals
+                    </h2>
+                    <div class="project-item">
+                        <h3 class="project-name">Full Stack Developer</h3>
+                        <p class="project-description">Master both frontend and backend technologies to build complete web applications.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-name">Summit Mount Everest</h3>
+                        <p class="project-description">Conquer the world's highest peak and push physical boundaries.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-name">Financial Independence</h3>
+                        <p class="project-description">Establish a career that allows for global travel and remote development.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-quote-left minimal-icon"></i>
+                        Inspiration
+                    </h2>
+                    <p class="about-text" style="font-style: italic; text-align: center; color: var(--grey-icon);">
+                        "Try Everything Once."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
